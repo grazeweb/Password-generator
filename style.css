@@ -1,0 +1,60 @@
+body{
+	 font-family: "Google Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "GRAD" 23;
+    background: #1F2937;
+    color: white;
+}
+.hero{
+	margin: 100px 200px;
+
+}
+h1{
+	font-weight: bold;
+	margin: 0px 0 5px;
+}
+p{
+	margin: 0px;
+	color: #9CA3AF;
+}
+span{
+	color: #10B981;
+}
+button{
+	border: none;
+	cursor: pointer;
+	padding: 7px 20px;
+	color: white;
+	text-shadow: 0 0 2px black;
+	background: #10B981;
+	margin-top: 50px;
+	margin-bottom: 30px;
+	border-radius: 5px;
+
+	box-shadow: 0px 3px 0 green;
+}
+button:hover{
+   box-shadow: none;
+	transform: translateY(3px);
+}
+.hr{
+	border-bottom: 1.5px solid #2F3E53;
+	border-radius: 1px;
+}
+.hero1{
+	display: flex;
+  justify-content: space-between;
+}
+.small{
+	background: #2F3E53;
+	margin-top: 40px;
+	width: 230px;
+	height: 20px;
+	text-align: center;
+	color: lightgreen;
+	border-radius: 5px;
+	padding: 10px 10px;
+}
